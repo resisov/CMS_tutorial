@@ -32,4 +32,4 @@ cmsenv
 cd
 ```
 다음단계로 넘어간다 >> MADGRAPH 설치
-- [MG5_install.md](https://github.com/resisov/CMS_tutorial/main/MG5_install.md)
+- [MG5_install.md](https://github.com/resisov/CMS_tutorial/blob/main/MG5_install.md)

@@ -31,4 +31,4 @@ cd CMSSW_10_2_23/src
 cmsenv
 cd
 ```
-다음단계로 넘어간다 >> MADGRAPH 
+다음단계로 넘어간다 >> MADGRAPH 설치

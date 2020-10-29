@@ -30,4 +30,4 @@ launch
 ```
 잘 생성된다!
 다음 단계로 넘어간다 >> 피시아, 델피스 설치
--[Pythia_Delphes_install.md](https://github.com/resisov/CMS_tutorial/blob/main/Pythia_Delphes_install.md)
+- [Pythia_Delphes_install.md](https://github.com/resisov/CMS_tutorial/blob/main/Pythia_Delphes_install.md)

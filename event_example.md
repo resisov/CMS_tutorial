@@ -65,7 +65,9 @@ cd /home/당신의아이디/Delphes3.4.2
 
 와! 이제 모든 과정이 완료되었다. 루트(*.root) 파일을 구경해보자!
 
+```bash
 root wow_particle_physics.root
 TBrowser b;
+```
 
 신기하다! 옆자리의 선배에게 궁금한것을 물어보자!

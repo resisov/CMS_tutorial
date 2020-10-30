@@ -5,7 +5,7 @@
 0.1. SCRAM ACRH 
 ```bash
 ##vi로 다음의 항을 입력하여 새로 저장하세요. ex. cmsset_9
-export SCRAM_ARCH=slc6_amd64_gcc630
+export SCRAM_ARCH=slc6_amd64_gcc530
 export VO_CMS_SW_DIR=/cvmfs/cms.cern.ch
 echo "$VO_CMS_SW_DIR $SCRAM_ARCH"
 source $VO_CMS_SW_DIR/cmsset_default.sh

@@ -64,6 +64,7 @@ make -j 4 HAS_PYTHIA8=true DelphesPythia8
 ## 컴파일러 오류
 gcc 버전문제로 오류가 발생할 수 있다. 오류 메세지에 c++ 이 들어있다면 gcc 버전이 530으로 세팅된 CMSSW를 사용하라!
 
-다음단계로 넘어가자!
 
--[event_example.md](https://github.com/resisov/CMS_tutorial/blob/main/event_example.md)
+아마 이대로 하면 오류가 발생하지 않을 것이다! 다음단계로 넘어가자!
+
+- [event_example.md](https://github.com/resisov/CMS_tutorial/blob/main/event_example.md)

@@ -43,13 +43,7 @@ git checkout tags/3.4.2pre15
 sed -i -e 's/c++0x/c++1y/g' Makefile
 make -j 4
 ```
-## 피시아 버전 낫매칭 오류
- PYTHIA Abort from Pythia::Pythia: unmatched version numbers : in code 8.235 but in XML 8.223
-** ERROR: can't read Pythia8 configuration file examples/Pythia8/configLHE.cmnd
-델피스는 피시아 버전에 민감하다! 반드시 8.223 버전으로 깔아야한다!
 
-## 컴파일러 오류
-gcc 버전문제로 오류가 발생할 수 있다. 오류 메세지에 c++ 이 들어있다면 gcc 버전이 530으로 세팅된 CMSSW를 사용하라!
 
 
 3. 델피스피시아8
@@ -60,3 +54,16 @@ gcc 버전문제로 오류가 발생할 수 있다. 오류 메세지에 c++ 이 
 export PYTHIA8=/home/"당신의아이디"/pythia8223/
 export LD_LIBRARY_PATH=$PYTHIA8/lib:$LD_LIBRARY_PATH
 make -j 4 HAS_PYTHIA8=true DelphesPythia8
+```
+
+## 피시아 버전 낫매칭 오류
+ PYTHIA Abort from Pythia::Pythia: unmatched version numbers : in code 8.235 but in XML 8.223
+** ERROR: can't read Pythia8 configuration file examples/Pythia8/configLHE.cmnd
+델피스는 피시아 버전에 민감하다! 반드시 8.223 버전으로 깔아야한다!
+
+## 컴파일러 오류
+gcc 버전문제로 오류가 발생할 수 있다. 오류 메세지에 c++ 이 들어있다면 gcc 버전이 530으로 세팅된 CMSSW를 사용하라!
+
+다음단계로 넘어가자!
+
+-[event_example.md](https://github.com/resisov/CMS_tutorial/blob/main/event_example.md)

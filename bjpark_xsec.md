@@ -27,6 +27,7 @@ launch
 
 3
 0
+0
 ```
 생성이 끝난 후 화면에 나오는 산란단면적을 기록
 
@@ -37,6 +38,7 @@ generate p p > t t~ y0 [QCD]
 output xd_gang
 launch
 
+3
 3
 ## decay z > all all 밑에 다음을 추가
 decay y0 > xd xd~
